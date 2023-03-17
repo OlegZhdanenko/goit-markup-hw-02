@@ -4,17 +4,19 @@
     --text-color:#434455;
     --pressed-color:#404BBF;
     --light-color:#F4F4FD;
+    --background-color:#fff;
 }
 body{
     font-family: "Roboto", sans-serif;
     color: var(--text-color);
+    background-color: var(--background-color);
 }
 .list{
     font-style: normal;
     text-decoration: none;
     list-style: none;
 }
-
+.link{text-decoration: none;}
 /* Хедер */
 .nav-list {
     font-weight: 500;
@@ -27,12 +29,16 @@ body{
     font-family: 'Raleway',sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.16;
-    color: var(--first-brand-color);
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+     text-transform: uppercase;
+    color: var(--secondary_brand-color);
 }
 .logo-color
 {
-    color: var(--secondary_brand-color);
+    color: var(--first-brand-color);
 }
 .nav-item{
     color: var(--first-brand-color);
@@ -146,8 +152,8 @@ background: var(--pressed-color);
             align-items: center;
             letter-spacing: 0.03em;
             text-transform: uppercase;
-            color: var(--light-color);}
-           .logo-footer-color{color: var(--secondary_brand-color);}
+            color: var(--secondary_brand-color);}
+           .logo-footer-color{color: var(--light-color);}
            /* portfolio */
            .portfolio {}
         
